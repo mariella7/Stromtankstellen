@@ -25,9 +25,6 @@ if (isGeoSupported && geoObject) {
 }
 */
 
-//enable geo permissions ("Location Services") in Alexa Developer Console! see: https://developer.amazon.com/en-US/docs/alexa/custom-skills/location-services-for-alexa-skills.html
-//maybe think about fallback using device address API, see: https://developer.amazon.com/en-US/docs/alexa/custom-skills/device-address-api.html
-
     //generate lat / long for geoCoordinates from Alexa device
     let prepend_url = "lat=" + lat + "&lng=" + lng;
     
